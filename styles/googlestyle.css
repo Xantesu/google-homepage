@@ -58,9 +58,29 @@
 	text-decoration: underline;
 }
 
-/*
 .footer ul{
+	position: absolute;
+	bottom: 0;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}*/
+	padding-top: 10px;
+	background-color: #ded9d9;
+	height: 50px;
+
+}
+
+.footer .left_footer ul {
+	width:1750px;
+	padding-left: 10px;
+}
+
+.footer li {
+	top: 10px;
+	display: inline;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+.footer .right_footer ul {
+	right: 0px;
+	padding-right: 10px;
+}
