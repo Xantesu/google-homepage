@@ -1,0 +1,66 @@
+.logo {
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 75px;
+}
+
+.searchbar {
+	margin: 0 auto;
+	width: 600px;
+	height: 30px;
+	margin-top: 10px;
+	font: 16px arial,sans-serif;
+	line-height: 34px;
+}
+
+.searchbutton, .luckbutton {
+	display: inline;
+	position: absolute;
+	left:50%;
+	width: 150px;
+	height: 50px;
+	margin-top: 25px;
+	background-color: #d2d4d2;
+	color: #4c3c3c;
+	box-shadow: 2px 2px 13px #c3afaf;
+	font-weight: bold;
+}
+
+
+.searchbutton {
+	margin-left: -150px;
+}
+
+.luckbutton {
+	margin-left: 25px;
+} 
+
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+
+}
+
+.navigation li {
+	display: inline;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+
+.navigation li:hover {
+	text-decoration: underline;
+}
+
+.navigation .active {
+	text-decoration: underline;
+}
+
+/*
+.footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}*/
